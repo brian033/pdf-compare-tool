@@ -246,3 +246,8 @@ The fact that students can participate in research projects under the guidance o
 ```
 
 雖然他沒有拿到他想要的"bebi.pdf"，但他還記得之前的內容，所以他還是有給出有邏輯的答覆。
+
+### 6. 將來可能的改進:
+1. 加入Embedding model來Embed, 使得此工具可以處理更大的文件, 避免context window爆開的風險
+2. 加入Caching機制，避免重複的文件處理
+3. 將ipynb記事本包裝成cli工具或者是後端API供前端聊天頁面使用
